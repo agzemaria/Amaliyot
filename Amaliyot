@@ -1,0 +1,114 @@
+1
+let ism = "Asadbek";
+console.log(ism);
+console.log(typeof ism);
+2
+let yosh = 20;
+console.log(yosh);
+console.log(typeof yosh);
+yosh += 5;
+console.log(yosh);
+3
+const PI = 3.14;
+console.log(PI);
+console.log(typeof PI);
+4
+let a = 10;
+let b = 5;
+console.log(a + b);
+5
+let matn = "Salom";
+let son = 42;
+let mantiqiy = true;
+let aniqlanmagan = undefined;
+let nol = null;
+console.log(typeof matn);
+console.log(typeof son);
+console.log(typeof mantiqiy);
+console.log(typeof aniqlanmagan);
+console.log(typeof nol);
+6
+var ism = "Asadbek";
+console.log(ism);
+ism = "Bobur";
+console.log(ism);
+7
+let tugilganYil = 2000;
+let yosh = 2025 - tugilganYil;
+console.log(yosh);
+8
+let ism = "Asadbek";
+let familiya = "Valiyev";
+let toliIsm = ism + " " + familiya;
+console.log(toliIsm);
+9
+let ism = "Asadbek";
+let yosh = 20;
+console.log(`Salom, men ${ism}man, yoshim ${yosh}`);
+10
+let x;
+console.log(x);
+11
+let narsa = null;
+console.log(narsa);
+12
+let ism = "Asadbek";
+let yosh = 22;
+let talabami = true;
+console.log(typeof ism);
+console.log(typeof yosh);
+console.log(typeof talabami);
+13
+let til = "JavaScript";
+console.log(til.length);
+14
+let matn = "25";
+let son = Number(matn);
+console.log(son);
+console.log(typeof son);
+15
+let son = 100;
+let matn = String(son);
+console.log(matn);
+console.log(typeof matn);
+16
+let son = 7;
+let natija = son * 3;
+console.log(natija);
+17
+let a = "Hello ";
+let b = "World!";
+console.log(a + b);
+18
+let rang = "yashil";
+console.log(rang);
+rang = "ko'k";
+console.log(rang);
+19
+let ism = "Asadbek";
+let familiya = "Karimov";
+let yosh = 21;
+console.log(`${ism} ${familiya}, yoshi: ${yosh}`);
+20
+let togri = true;
+let noto_gri = false;
+console.log(togri);
+console.log(noto_gri);
+21
+console.log(typeof null);
+console.log(typeof undefined);
+22
+let gap = 'Men "JS" ni o\'rganayapman';
+console.log(gap);
+23
+let son = 5;
+son++;
+console.log(son);
+24
+let ism = "Asadbek", yosh = 25, kasb = "dasturchi";
+console.log(`${ism}, ${yosh} yosh, ${kasb}`);
+25
+let tugilganYil = 2002;
+let hozirgiYil = 2025;
+let yosh = hozirgiYil - tugilganYil;
+console.log(`Sizning yoshingiz: ${yosh}`);
